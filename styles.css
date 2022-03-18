@@ -1,0 +1,57 @@
+
+body {
+    background-color: greenyellow;
+    font-family: fantasy;
+    font-weight: bold;
+    text-align: center;
+    font-size: 33px;
+    display: flexbox;
+}
+
+h1 {
+    color: darkred;
+    font-size: 48px;
+    text-decoration: underline;
+
+    
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-color: red;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: lightblue;
+     
+}
+
+button {
+    border-radius: 20px;
+    border-width: 12px;
+    border-color: blue;
+}
+
+.buttons {
+    width: 100%
+ 
+}
+
+.moves {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    
+    
+}
+
+#player-el {
+    margin-right: 110px;
+
+}
+
+#computer-el {
+    margin-left: 110px;
+
+}
